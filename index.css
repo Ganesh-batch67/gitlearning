@@ -1,0 +1,57 @@
+*{box-sizing: border-box;
+margin:0; padding:0;}
+
+#centerpage{background:url(salt/salt3.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+	background-position:center center;
+	background-attachment:fixed;
+	max-width: 100%;
+    height:100vh;
+	}
+
+#topbar{background-color: #101010;
+height:132px;
+width:100%;
+}
+
+#main{ 
+border:5px solid red;
+width:auto;
+height:auto;
+border: 1px solid black;
+    
+
+}
+
+#logodiv{float:left;
+position:absolute;
+left:70px;
+top:20px;
+max-width:auto;}
+
+
+#navbar{height:50px;
+max-width:auto;
+border:1px solid red;
+float:left;
+font-family:"Calibri";
+position:absolute;
+top:40px;
+left:350px;
+text-align:center;
+}
+
+
+#navbar ul{
+    list-style-type: none;
+	
+}
+#navbar ul li{float:left;}
+#navbar ul a{
+			display:inline-block;
+			text-decoration:none;
+			padding:16px 20px;
+			color:white;
+		-webkit-transition-duration: 1s; /* Safari */ }
+#navbar ul a:hover{color:#8F6B30;}
